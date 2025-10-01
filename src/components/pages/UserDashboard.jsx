@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import API from "../utils/api";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar.jsx";
 
 function UserDashboard() {
   const [stores, setStores] = useState([]);
